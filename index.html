@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudoku Master</title>
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+  <div class="header">
+    <!-- <img src="https://img.icons8.com/ios/100/sudoku.png" alt="Sudoku Icon" class="icon" /> -->
+    <h1>Sudoku Master</h1>
+  </div>
+
+  <div class="stats">
+  <div>⏱ Time: <span id="timer">0</span> sec</div>
+  <!-- <div>🏆 Fastest Time: <span id="best-time">--</span> sec</div> -->
+</div>
+
+
+  <div class="controls">
+    <button onclick="generateSudoku()">New Game</button>
+    <button onclick="checkSolution()">Check Solution</button>
+    <button onclick="resetBoard()">Reset</button>
+    <button onclick="giveHint()">Hint</button>
+    <button onclick="toggleDarkMode()">🌗 Toggle Dark Mode</button>
+    <button onclick="toggleSound()">🔊 Toggle Sound</button>
+  </div>
+
+  <div id="sudoku-board" class="sudoku-board"></div>
+
+  <div id="message" class="message"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+  
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f8f9fa;
+      background-image: url('lightmode.jpg');
+  background-repeat: repeat;
+  background-size: 800px auto; /* small image tiles */
+  background-attachment: fixed;
+  background-position: top left;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .header h1 {
+      font-size: 2em;
+      margin: 0;
+      color: #333;
+    }
+
+    .icon {
+      width: 50px;
+      height: 50px;
+    }
+
+    .controls {
+      margin: 20px 0;
+      display: flex;
+      gap: 10px;
+    }
+
+    button {
+      padding: 10px 15px;
+      font-size: 1em;
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .sudoku-board {
+      display: grid;
+      grid-template-columns: repeat(9, 40px);
+      grid-template-rows: repeat(9, 40px);
+      gap: 2px;
+    }
+
+    .cell {
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      font-size: 1.2em;
+      border: 1px solid #ccc;
+    }
+
+    .prefilled {
+      background-color: #e9ecef;
+      font-weight: bold;
+    }
+
+    .editable {
+      background-color: white;
+    }
+
+    .message {
+      margin-top: 20px;
+      font-weight: bold;
+      color: green;
+    }
+
+    @media (max-width: 500px) {
+      .sudoku-board {
+        grid-template-columns: repeat(9, 30px);
+        grid-template-rows: repeat(9, 30px);
+      }
+      .cell {
+        width: 30px;
+        height: 30px;
+        font-size: 1em;
+      }
+    }
+  
+    .stats {
+  margin-top: 10px;
+  font-size: 3em;
+    font-weight: bold;
+    background: hsl(0, 100%, 99%);
+  color: #333;
+  display: flex;
+  gap: 20px;
+}
+
+body.dark {
+  background-color: #121212;
+  background-image: url('dark.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+body.dark .cell {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+body.dark .prefilled {
+  background-color: #444;
+  color: white;
+}
+
+body.dark button {
+  background-color: #444;
+  color: white;
+}
+
+body.dark .message {
+  color: lightgreen;
+}
+body.dark .header h1 {
+  color: #f8f9fa;
+}
+
+body.dark .stats {
+  color: #f8f9fa;
+  background-color: #121212;
+}
+
+
+
+

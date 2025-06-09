@@ -6,7 +6,7 @@ Welcome to **Sudoku Master**, a fully interactive and logic-driven Sudoku puzzle
 
 ## 🌟 Live Demo
 
-🔗 [Play the Game Here](https://your-username.github.io/sudoku-game)
+🔗 [Play the Game Here](https://mainakpal4.github.io/Kshitij-IIT-KGP-Workshop-Day-2/)
 
 ---
 
@@ -96,9 +96,9 @@ This project enhanced my understanding of:
 
 I'm always open to feedback and collaboration. If you liked the project, feel free to connect:
 
-- 🌐 [Portfolio Website](#)
-- 📧 your.email@example.com
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)
+- 🌐 [Portfolio Website](https://mainak-portfolio-git-main-mainak-pals-projects.vercel.app/)
+- 📧 palmainakmax@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/mainak-pal-abcdefg/)
 
 ---
 
